@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 100px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: rgb(14, 131, 131);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+header h1 {
+    color: white;
+    font-family: "Grandstander";
+    font-size: 3rem;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#logoTurtle{
+   width: 50px;
+   height: auto;
+}
+
+#sacrificed {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#sacrificed img {
+    width: 200px;
+    height: 200px;
+}    
+
+#coderNameSacrificed {
+    font-family: "Grandstander";
+    font-size: 2rem;
+}
+
+#coders {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.coder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    margin: 1%;
+}
+
+.coder :hover{
+    -webkit-transform:scaleZ(1.25);
+    -moz-transform:scaleZ(1.25);
+    -ms-transform:scaleZ(1.25);
+    -o-transform:scaleZ(1.25);
+    transform:scaleZ(1.25);
+}
+
+
+.coder img {
+    width: 80px;
+    height: 80px;
+    } 
+
+.coderName {
+    font-family: "Grandstander";
+    font-size: 17px;
+}
+
+.btnDeleteCoder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Grandstander";
+    color: white;
+    background-color: red;
+    font-weight: bold;
+    border-radius: 15px;
+    width: 15px;
+    height: 15px;
+    font-size: 12px;
+
+}
+
+
+.addCoder {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#btnAddCoder {
+    border: none;
+    background-color: rgb(14, 131, 131);
+    padding: 10px;
+    border-radius: 15px;
+    color: white;
+    font-family: "Grandstander";
+}
+
+.sectionSacrifice {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+#btnSacrifice {
+    border: none;
+    background-color: rgb(14, 131, 131);
+    padding: 10px;
+    border-radius: 15px;
+    color: white;
+    font-family: "Grandstander";
+
+}
+#btnSacrifice:hover {
+    border: none;
+    background-color: rgba(14, 131, 131, 0.5);
+    padding: 10px;
+    border-radius: 15px;
+    color: white;
+    font-family: "Grandstander";
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    font-family: "Grandstander";
+    background-color: rgb(14, 131, 131);
+    font-size: 15px;
+    color: white;
+}
+
+#logoTurtleFooter {
+    width: 15px;
+    height: 15px;
+
+}
+
+.disabledCoder{
+    filter: grayscale(100%);
+}
+
+
+@media only screen and (max-width: 600px) {
+    .coder {
+        width: 9%;
+        margin: 1%;
+    }
+    header h1 {
+        font-size: 1.8rem;
+    }
+}
+
+
+@media only screen and (min-width: 600px) {
+    .coder {
+        width: 10%;
+        margin: 1%;
+    }
+    header h1 {
+        font-size: 3rem;
+    }
+    #logoTurtle{
+        width: 70px;
+     }
+}
+
+
+@media only screen and (min-width: 768px) {
+    .coder {
+        width: 9%;
+        margin: 1.6%;
+    }
+    header h1 {
+        font-size: 4rem;
+    }
+    #logoTurtle{
+        width: 80px;
+     }
+}
+
+
+@media only screen and (min-width: 992px) {
+    .coder {
+        width: 8%;
+        margin: 1%;
+    }
+    header h1 {
+        font-size: 4.5rem;
+    }
+    #logoTurtle{
+        width:90px;
+     }
+}
+
+
+@media only screen and (min-width: 1200px) {
+    .coder {
+        width: 6%;
+        margin: 1%;
+    }
+    header h1 {
+        font-size: 6rem;
+    }
+    #logoTurtle{
+        width:100px;
+     }
+}

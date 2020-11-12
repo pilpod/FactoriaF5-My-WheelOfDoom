@@ -1,0 +1,19 @@
+{
+    "coders" : [
+        {
+            "name": "rene",
+            "active": true,
+            "profPic": "img/rene.png"
+        },
+        {
+            "name": "rene",
+            "active": true,
+            "profPic": "img/rene.png"
+        },
+        {
+            "name": "rene",
+            "active": true,
+            "profPic": "img/rene.png"
+        }
+    ]
+}  
